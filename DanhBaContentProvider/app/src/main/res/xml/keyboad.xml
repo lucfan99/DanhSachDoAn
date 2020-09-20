@@ -1,0 +1,156 @@
+<Keyboard xmlns:android="http://schemas.android.com/apk/res/android"
+   android:keyWidth="15%p"
+    android:horizontalGap="0px"
+    android:verticalGap="0px"
+    android:keyHeight="15%p"
+    >
+    <Row>
+        <Key android:codes="49" android:keyLabel="1" android:horizontalGap="4%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="50" android:keyLabel="2" android:horizontalGap="4%p"/>
+        <Key android:codes="51" android:keyLabel="3" android:horizontalGap="4%p" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        <Key android:codes="52" android:keyLabel="4" android:horizontalGap="4%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="53" android:keyLabel="5" android:horizontalGap="4%p" />
+        <Key android:codes="54" android:keyLabel="6" android:horizontalGap="4%p" android:keyEdgeFlags="right"/>
+    </Row>
+    <Row>
+        android:keyEdgeFlags="left"/>
+        <Key android:codes="55" android:keyLabel="7" android:horizontalGap="4%p" android:keyEdgeFlags="left"/>
+        <Key android:codes="56" android:keyLabel="8" android:horizontalGap="4%p"/>
+        <Key android:codes="57" android:keyLabel="9" android:horizontalGap="4%p" android:keyEdgeFlags="right"/>
+         android:keyEdgeFlags="right"/>
+    </Row>
+
+    <Row>
+        <Key android:codes="-5"
+            android:keyLabel="DELETE"
+            android:keyWidth="40%p"
+            android:keyEdgeFlags="left"
+            android:isRepeatable="true"/>
+        <Key android:codes="48" android:keyLabel="0" android:horizontalGap="4%p"/>
+        <Key android:codes="10"
+            android:keyLabel="CALL"
+            android:keyWidth="60%p"
+            android:keyEdgeFlags="right"/>
+    </Row>
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="vertical"-->
+<!--        android:layout_alignParentBottom="true">-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button_1"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="1"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button_2"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="2"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button_3"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="3"/>-->
+
+<!--        </LinearLayout>-->
+
+<!--    <LinearLayout-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:orientation="horizontal">-->
+<!--        <Button-->
+<!--            android:id="@+id/button_4"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="4"/>-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button_5"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="5"/>-->
+<!--        <Button-->
+<!--            android:id="@+id/button_6"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="6"/>-->
+
+
+<!--    </LinearLayout>-->
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+
+<!--            <Button-->
+<!--                android:id="@+id/button_7"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="7"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button_8"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="8"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button_9"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="9"/>-->
+
+
+<!--        </LinearLayout>-->
+
+<!--        <LinearLayout-->
+<!--            android:layout_width="match_parent"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:orientation="horizontal">-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button_delete"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="2"-->
+<!--                android:background="@drawable/delete"-->
+<!--                />-->
+<!--            <Button-->
+<!--                android:id="@+id/button_0"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="1"-->
+<!--                android:text="0"/>-->
+
+<!--            <Button-->
+<!--                android:id="@+id/button_enter"-->
+<!--                android:layout_width="0dp"-->
+<!--                android:layout_height="wrap_content"-->
+<!--                android:layout_weight="2"-->
+<!--                android:background="@drawable/call"-->
+<!--             />-->
+<!--        </LinearLayout>-->
+<!--    </LinearLayout>-->
+
+</Keyboard>
